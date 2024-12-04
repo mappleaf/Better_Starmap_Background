@@ -1,0 +1,37 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2024-12-1
+  Info:
+    - Added a new galaxy: Nexuz (requires the attached mod)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2024-11-28
+  Info:
+    - Increase image resolution
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2024-11-27
+  Info:
+    - Added space-age as required dependency.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2024-11-26
+  Info:
+    - Added a new galaxy image: Solar-System for Realistic Celestial Universe (requires the attached mod)
+    - Moved the Three-Body star system's position to be compatible with the Solar System.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2024-11-25
+  Info:
+    - Fixed another crash
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2024-11-25
+  Info:
+    - Added a new galaxy image: Three-Body Galaxy (requires the attached mod)
+    - Increase image resolution
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-11-22
+  Info:
+    - Initial release

@@ -101,14 +101,14 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
       shift = {8468, -7696},
     })
   end
-  if mods["Starmap_Nexuz"] then
-    table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
-      filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_edge.png",
-      size = 4096,
-      scale = 1,
-      shift = {8468, -7696},
-    })
-  end
+  -- if mods["Starmap_Nexuz"] then
+  --   table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
+  --     filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_edge.png",
+  --     size = 4096,
+  --     scale = 1,
+  --     shift = {8468, -7696},
+  --   })
+  -- end
 
   -- 如果启用了 tenebris mod 且 Starmap_Nexuz 已启用，则添加额外的图层
   if mods["Starmap_Nexuz"] and mods["tenebris"] then

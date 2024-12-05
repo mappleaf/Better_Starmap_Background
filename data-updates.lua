@@ -98,7 +98,15 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
       filename = "__Starmap_Nexuz__/graphics/icons/starmap_background_nexuz.png",
       size = 4096,
       scale = 1,
-      shift = {8468, -7696},
+      shift = {4234, -3848},
+    })
+  end
+  if mods["Starmap_Nexuz"] then
+    table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
+      filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_edge.png",
+      size = 4096,
+      scale = 1,
+      shift = {4234, -3848},
     })
   end
 
@@ -108,7 +116,7 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
       filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_Tenebris.png",
       size = 4096,
       scale = 1,
-      shift = {8468, -7696},
+      shift = {4234, -3848},
     })
   end
 
@@ -118,7 +126,7 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
       filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_Maraxsis.png",
       size = 4096,
       scale = 1,
-      shift = {8468, -7696},
+      shift = {4234, -3848},
     })
   end
 
@@ -126,6 +134,26 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
   if mods["Starmap_Nexuz"] and mods["naufulglebunusilo"] then
     table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
       filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_Naufulglebunusilo.png",
+      size = 4096,
+      scale = 1,
+      shift = {4234, -3848},
+    })
+  end
+
+  -- 如果启用了 erm_toss mod 且 Starmap_Nexuz 已启用，则添加额外的图层
+  if mods["Starmap_Nexuz"] and mods["erm_toss"] then
+    table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
+      filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_toss.png",
+      size = 4096,
+      scale = 1,
+      shift = {4234, -3848},
+    })
+  end
+
+  -- 如果启用了 erm_zerg mod 且 Starmap_Nexuz 已启用，则添加额外的图层
+  if mods["Starmap_Nexuz"] and mods["erm_zerg"] then
+    table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
+      filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_zerg.png",
       size = 4096,
       scale = 1,
       shift = {4234, -3848},

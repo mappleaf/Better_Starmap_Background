@@ -159,4 +159,14 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
       shift = {4234, -3848},
     })
   end
+
+  -- 如果启用了 planet-arrakis 且 Starmap_Nexuz 已启用，则添加额外的图层
+  if mods["Starmap_Nexuz"] and mods["planet-arrakis"] then
+    table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
+      filename = "__Starmap_Nexuz__/graphics/icons/starmap_startrails_nexuz_Arrakis.png",
+      size = 4096,
+      scale = 1,
+      shift = {4234, -3848},
+    })
+  end
 end

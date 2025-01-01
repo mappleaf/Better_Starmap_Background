@@ -76,6 +76,16 @@ if data.raw["utility-sprites"] and data.raw["utility-sprites"]["default"] then
     })
   end
 
+  -- 添加 Cerys 的轨道
+  if mods["Cerys-Moon-of-Fulgora"] then
+    table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {
+      filename = "__Better_Starmap_Background__/graphics/icons/Startrails-creys.png",
+      size = 4096,
+      scale = 0.5,
+      shift = {1024, 1024},
+    })
+  end
+
   -- 添加 Starmap Three Body mod 的图层
   if mods["Starmap_Three_Body"] then
     table.insert(data.raw["utility-sprites"]["default"]["starmap_star"].layers, {

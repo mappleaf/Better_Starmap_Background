@@ -1,11 +1,10 @@
 {
 	"name":"Better_Starmap_Background",
-	"author":"Tserup",
-	"version":"1.2.1",
+	"version":"1.3.0",
 	"title":"Better StarMap Background",
 	"description":"Add a starry sky background to the starmap.",
 	"contact": "Discord: tserup",
 	"factorio_version":"2.0",
-	"dependencies": ["base >= 2.0.0", "space-age >= 2.0.20"],
+	"dependencies": ["base >= 2.0.0", "space-age >= 2.0.20", "PlanetsLib >= 1.1.12"],
 	"space_travel_required": true
 } 

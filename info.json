@@ -1,7 +1,9 @@
 {
 	"name":"Better_Starmap_Background",
+	"author":"Tserup, Mappleaf",
 	"version":"1.3.0",
 	"title":"Better StarMap Background",
+	"homepage": "https://github.com/mappleaf/Better_Starmap_Background",
 	"description":"Add a starry sky background to the starmap.",
 	"contact": "Discord: tserup",
 	"factorio_version":"2.0",
